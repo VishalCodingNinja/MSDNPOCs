@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CustomerManagementSystem.Controllers
 {
+
+	//Master branch
 	public class HomeController : Controller
 	{
 		private readonly IRepositories<Customer> _repository;
