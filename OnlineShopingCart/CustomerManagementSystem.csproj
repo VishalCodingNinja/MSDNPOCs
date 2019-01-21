@@ -1,0 +1,133 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Views\Home\Images\img.png" />
+    <None Remove="Views\Home\Images\Screenshot (13).png" />
+    <None Remove="Views\Home\Images\Screenshot (14).png" />
+    <None Remove="Views\Home\Images\Screenshot (15).png" />
+    <None Remove="Views\Home\Images\Screenshot (2).png" />
+    <None Remove="Views\Home\Images\Screenshot (25).png" />
+    <None Remove="Views\Home\Images\Screenshot (26).png" />
+    <None Remove="Views\Home\Images\Screenshot (27).png" />
+    <None Remove="Views\Home\Images\Screenshot (3).png" />
+    <None Remove="Views\Home\Images\Screenshot (37).png" />
+    <None Remove="Views\Home\Images\Screenshot (38).png" />
+    <None Remove="Views\Home\Images\Screenshot (39).png" />
+    <None Remove="Views\Home\Images\Screenshot (49).png" />
+    <None Remove="Views\Home\Images\Screenshot (50).png" />
+    <None Remove="Views\Home\Images\Screenshot (51).png" />
+    <None Remove="Views\Home\Images\Screenshot (61).png" />
+    <None Remove="Views\Home\Images\Screenshot (62).png" />
+    <None Remove="Views\Home\Images\Screenshot (63).png" />
+    <None Remove="Views\Home\Images\Screenshot (73).png" />
+    <None Remove="Views\Home\Images\Screenshot (74).png" />
+    <None Remove="Views\Home\Images\Screenshot (75).png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Views\Home\Images\img.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Home\Images\Screenshot (13).png" />
+    <Content Include="Views\Home\Images\Screenshot (14).png" />
+    <Content Include="Views\Home\Images\Screenshot (15).png" />
+    <Content Include="Views\Home\Images\Screenshot (2).png" />
+    <Content Include="Views\Home\Images\Screenshot (25).png" />
+    <Content Include="Views\Home\Images\Screenshot (26).png" />
+    <Content Include="Views\Home\Images\Screenshot (27).png" />
+    <Content Include="Views\Home\Images\Screenshot (3).png" />
+    <Content Include="Views\Home\Images\Screenshot (37).png" />
+    <Content Include="Views\Home\Images\Screenshot (38).png" />
+    <Content Include="Views\Home\Images\Screenshot (39).png" />
+    <Content Include="Views\Home\Images\Screenshot (49).png" />
+    <Content Include="Views\Home\Images\Screenshot (50).png" />
+    <Content Include="Views\Home\Images\Screenshot (51).png" />
+    <Content Include="Views\Home\Images\Screenshot (61).png" />
+    <Content Include="Views\Home\Images\Screenshot (62).png" />
+    <Content Include="Views\Home\Images\Screenshot (63).png" />
+    <Content Include="Views\Home\Images\Screenshot (73).png" />
+    <Content Include="Views\Home\Images\Screenshot (74).png" />
+    <Content Include="Views\Home\Images\Screenshot (75).png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Images\" />
+  </ItemGroup>
+
+ <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+	<PackageReference Include="Microsoft.AspNetCore.All" />
+	<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+	<DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.0"></DotNetCliToolReference>
+  </ItemGroup>
+
+ <ItemGroup>
+   <Content Update="Views\Home\Images\Screenshot %2813%29.png">
+     <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+   </Content>
+   <Content Update="Views\Home\Images\Screenshot %2814%29.png">
+     <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+   </Content>
+   <Content Update="Views\Home\Images\Screenshot %2815%29.png">
+     <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+   </Content>
+   <Content Update="Views\Home\Images\Screenshot %282%29.png">
+     <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+   </Content>
+   <Content Update="Views\Home\Images\Screenshot %2825%29.png">
+     <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+   </Content>
+   <Content Update="Views\Home\Images\Screenshot %2826%29.png">
+     <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+   </Content>
+   <Content Update="Views\Home\Images\Screenshot %2827%29.png">
+     <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+   </Content>
+   <Content Update="Views\Home\Images\Screenshot %283%29.png">
+     <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+   </Content>
+   <Content Update="Views\Home\Images\Screenshot %2837%29.png">
+     <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+   </Content>
+   <Content Update="Views\Home\Images\Screenshot %2838%29.png">
+     <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+   </Content>
+   <Content Update="Views\Home\Images\Screenshot %2839%29.png">
+     <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+   </Content>
+   <Content Update="Views\Home\Images\Screenshot %2849%29.png">
+     <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+   </Content>
+   <Content Update="Views\Home\Images\Screenshot %2850%29.png">
+     <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+   </Content>
+   <Content Update="Views\Home\Images\Screenshot %2851%29.png">
+     <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+   </Content>
+   <Content Update="Views\Home\Images\Screenshot %2861%29.png">
+     <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+   </Content>
+   <Content Update="Views\Home\Images\Screenshot %2862%29.png">
+     <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+   </Content>
+   <Content Update="Views\Home\Images\Screenshot %2863%29.png">
+     <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+   </Content>
+   <Content Update="Views\Home\Images\Screenshot %2873%29.png">
+     <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+   </Content>
+   <Content Update="Views\Home\Images\Screenshot %2874%29.png">
+     <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+   </Content>
+   <Content Update="Views\Home\Images\Screenshot %2875%29.png">
+     <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+   </Content>
+ </ItemGroup>
+
+
+</Project>

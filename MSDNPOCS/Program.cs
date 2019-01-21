@@ -1,4 +1,4 @@
-﻿using PocForConst;
+﻿
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -56,7 +56,7 @@ namespace MSDNPOCS
 			//DictionaryWithCollection();
 			//NestedClass();
 			//PartialClass();
-			PartialMethod();
+			//PartialMethod();
 		}
 
 		private static void PartialMethod()
@@ -1133,9 +1133,12 @@ namespace MSDNPOCS
 			//Use caution when you refer to constant values defined in other code such as DLLs.
 			//If a new version of the DLL defines a new value for the constant, your program 
 			//will still hold the old literal value until it is recompiled against the new version.
-			Program p = new Program();
-			Console.WriteLine(Program.constVariable);//const are binded at compile time ..once assign can not be change
+			//Program p = new Program();
+			//Console.WriteLine(Program.constVariable);//const are binded at compile time ..once assign can not be change
+
+
 		}
+
 
 		private static void Fields()
 		{

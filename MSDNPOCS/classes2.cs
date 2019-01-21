@@ -712,14 +712,14 @@ namespace MSDNPOCS
 	}
 	public class Adult:Person
 	{
-		private static int _minimumAge;
+		//private static int _minimumAge;
 		public Adult(string lastName,string firstName):base(lastName,firstName)
 		{
 
 		}
 		static Adult()
 		{
-			_minimumAge = 18;
+			//_minimumAge = 18;
 		}
 		//remaining implementation of adult class...
 	}

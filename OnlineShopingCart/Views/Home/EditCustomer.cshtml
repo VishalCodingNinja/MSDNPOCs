@@ -1,0 +1,33 @@
+﻿@model Customer
+@{
+    ViewBag.Title = "Edit Customer";
+
+}
+
+<center>Edit Customer
+
+    <form method="post" style="border-right:20PX">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" value="@Model.Name" /><br />
+        <span asp-validation-for="Name"></span>
+        <label asp-for="Address"></label>
+        <input asp-for=" Address" value="@Model.Address" /><br />
+        <span asp-validation-for="Address"></span>
+        <label asp-for="Discount"></label>
+        <input asp-for="Discount" value="@Model.Discount" /><br>
+        <span asp-validation-for="Discount"></span>
+        <label asp-for="ItemPurchase">
+        </label><input asp-for=" ItemPurchase" value="@Model.ItemPurchase" /><br />
+        <span asp-validation-for="ItemPurchase"></span>
+        <label asp-for="TotalPurchase"></label>
+        <input asp-for="TotalPurchase" value="@Model.TotalPurchase" /><br />
+        <span asp-validation-for="TotalPurchase"></span>
+        <label asp-for="AddToCartAndDatabase"></label>
+        <input asp-for="AddToCartAndDatabase" value="@Model.AddToCartAndDatabase" /><br />
+        <span asp-validation-for="AddToCartAndDatabase"></span>
+
+        <input type="submit" class="btn btn-primary" name="Update" value="Update" /> <a asp-action="Index">Go to Home</a>
+    </form>
+
+
+    </center>

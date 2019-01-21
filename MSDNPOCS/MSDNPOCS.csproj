@@ -57,11 +57,5 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\PocForConst\PocForConst.csproj">
-      <Project>{9F538DE1-F054-4A95-A069-9518A824BC2D}</Project>
-      <Name>PocForConst</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

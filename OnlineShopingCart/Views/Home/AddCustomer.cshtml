@@ -1,0 +1,55 @@
+﻿@model Customer;
+@{
+    ViewBag.Title = "Add Customer";
+
+}
+<center>
+    <h3><u>Create Customer</u></h3><br /><br />
+                                         <form method="post" style="border-right:20PX" class="table table-hover">
+                                             <table>
+                                                 <tr>
+                                                     <th><label asp-for="Name"></label></th>
+                                                     <td><input asp-for="Name" /></td>
+                                                     <td><span asp-validation-for="Name"></span></td>
+                                                 </tr>
+                                                 <tr>
+                                                     <th><label asp-for="Address"></label></th>
+                                                     <td><input asp-for=" Address" /></td>
+                                                     <td>
+                                                         <span asp-validation-for="Address"></span>
+                                                     <td>
+
+                                                 </tr>
+                                                 <tr>
+                                                     <th><label asp-for="Discount"></label></th>
+                                                     <td>  <input asp-for="Discount" /></td>
+                                                     <td>  <span asp-validation-for="Discount"></span></td>
+
+                                                 </tr>
+
+                                                 <tr>
+                                                     <th>
+                                                         <label asp-for="ItemPurchase">
+                                                         </label>
+                                                     </th>
+                                                     <td><input asp-for=" ItemPurchase" /></td>
+                                                     <td>  <span asp-validation-for="ItemPurchase"></span></td>
+
+
+                                                 </tr>
+
+                                                 <tr>
+                                                     <th><label asp-for="TotalPurchase"></label></th>
+                                                     <td><input asp-for="TotalPurchase" /></td>
+                                                     <td><span asp-validation-for="TotalPurchase"></span></td>
+                                                 </tr>
+                                                 <tr>
+                                                     <th> <label asp-for="AddToCartAndDatabase"></label></th>
+                                                     <td><input asp-for="AddToCartAndDatabase" /></td>
+                                                     <td><span asp-validation-for="AddToCartAndDatabase"></span></td>
+                                                 </tr>
+
+                                             </table><br /><br />
+                                             <input type="submit" class="btn btn-primary" name="save" value="Save Customer" /> <a asp-action="Index">Go to Home</a>
+                                         </form>
+</center>

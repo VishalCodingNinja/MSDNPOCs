@@ -1,0 +1,45 @@
+﻿@model Customer;
+@{
+    ViewBag.Title = "Customer Details";
+
+}  <h1>Customer Details</h1>
+<div class="container">
+
+    <p>The .table-bordered class adds borders to a table:</p>
+    <table class="table table-bordered">
+
+        <tbody>
+            <tr>
+                <th>Customer Id :</th>
+                <td>@Model.Id</td>
+
+            </tr>
+            <tr>
+                <th>Customer Name:</th>
+                <td>@Model.Name</td>
+            </tr>
+            <tr>
+                <th>Customer Address:</th>
+                <td>@Model.Address</td>
+            </tr>
+            <tr>
+                <th>Customer ItemPurchase</th>
+                <td>@Model.ItemPurchase</td>
+            </tr>
+            <tr>
+                <th> Customer Able to Add In cart:</th>
+                <td>@Model.AddToCartAndDatabase</td>
+            </tr>
+            <tr>
+                <th>Customer Discount:</th>
+                <td>@Model.Discount</td>
+            </tr>
+            <tr>
+                <th>Customer Purchase</th>
+                <td>@Model.TotalPurchase</td>
+            </tr>
+        </tbody>
+    </table>
+    <a asp-action="Index">Go to Home</a>
+
+</div>
