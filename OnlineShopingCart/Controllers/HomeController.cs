@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CustomerManagementSystem.Controllers
 {
+
+	//Master branch
 	public class HomeController : Controller
 	{
 		//Child Branch
