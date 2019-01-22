@@ -14,6 +14,7 @@ namespace CustomerManagementSystem.Controllers
 		//Child Branch
 		private readonly IRepositories<Customer> _repository;
 
+		//this is child branch
 		public HomeController(IRepositories<Customer> repository)
 		{
 			_repository = repository;
