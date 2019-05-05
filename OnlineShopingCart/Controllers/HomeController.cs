@@ -11,8 +11,10 @@ namespace CustomerManagementSystem.Controllers
 	//Master branch
 	public class HomeController : Controller
 	{
+		//Child Branch
 		private readonly IRepositories<Customer> _repository;
 
+		//this is child branch
 		public HomeController(IRepositories<Customer> repository)
 		{
 			_repository = repository;
@@ -71,6 +73,7 @@ namespace CustomerManagementSystem.Controllers
 		[ValidateAntiForgeryToken]
 		public async Task<IActionResult> EditCustomer(CustomerEditModel customerEdit)
 		{
+			//my name is vishal 
 			if (ModelState.IsValid)
 			{
 				var customerToUpdate = new Customer
